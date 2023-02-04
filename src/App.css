@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.heading {
+  margin-bottom: 30px;
+  font-family: sans-serif;
+}
+
+.text-display {
+  background-color: lightgray;
+  padding: 20px;
+  width: 50%;
+  height: 100px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  margin-top: 20px;
+}
+
+.record-button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.start-record-button-color {
+  background-color: #4caf50;
+}
+.stop-record-button-color {
+  background-color: red;
+}
+
+.translate-button {
+  background-color: #3489eb;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.mic-icon {
+  color: red;
+  font-size: 40px;
+}
+
+.text-display {
+  font-size: 20px;
+  margin-top: 20px;
+}
