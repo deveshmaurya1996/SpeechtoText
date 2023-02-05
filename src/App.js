@@ -42,7 +42,7 @@ class App extends Component {
   translateToHindi = async () => {
     const {text} = this.state
     console.log(text)
-    const subscriptionKey = '99a0eadf725d408ea653c948d14b07d6'
+    const subscriptionKey = ''
     const endpoint = 'https://api.cognitive.microsofttranslator.com/'
     const path = `/translate?api-version=3.0&to=hi&text=${encodeURI(text)}`
     const requestOptions = {
